@@ -7,3 +7,9 @@ textColor = "#262730"
 [server]
 headless = true
 port = 8501
+
+[auth]
+provider = "google"  # ou "microsoft", "github"
+client_id = "votre-google-client-id"
+client_secret = "votre-google-client-secret"
+redirect_uri = "https://votre-app.streamlit.app"
